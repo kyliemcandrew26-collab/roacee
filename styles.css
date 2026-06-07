@@ -229,6 +229,16 @@ hr {
   text-decoration: none;
 }
 
+/* site title styling */
+.site-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #ff6f91;
+  letter-spacing: 0.5px;
+  text-transform: none;
+}
+
 #menu .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -395,8 +405,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(https://source.unsplash.com/featured/1600x900/?beauty,cosmetics) center center no-repeat;
-  background-color: #e5e5e5;
+  background: url(img/intro-bg.jpg) center center no-repeat;
+  background-color: #e5e5e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
