@@ -148,12 +148,12 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: #ffb6c1;
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: #ffb6c1;
 }
 h4 {
   font-size: 18px;
@@ -405,7 +405,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(img/kylie.jpg) center center no-repeat;
+  background: url(img/premium.avif) center center no-repeat;
   background-color: #e5e5e;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -457,6 +457,12 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features h3 {
+  color: #ffb6c1;
+}
+#features p {
+  color: #ffb6c1;
 }
 
 
@@ -520,7 +526,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #ffb6c1;
   color: #fff;
 }
 #services .service-desc {
